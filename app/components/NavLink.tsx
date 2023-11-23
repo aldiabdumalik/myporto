@@ -16,6 +16,7 @@ export default function NavLink({style, href, title, func}: LinkProps) {
       href={href}
       className={`${style} relative group`}
       onClick={() => func('click')}
+      scroll={false}
     >
       {title}
       <span
