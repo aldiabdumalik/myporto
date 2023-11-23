@@ -39,7 +39,7 @@ export default function Home() {
         </div>
       </div>
       <div className='flex justify-center items-center md:flex-1'>
-        <div className='hero-img h-[18rem] w-[18rem] lg:h-[25rem] lg:w-[25rem]'></div>
+        <div className='hero-img h-[18rem] w-[18rem] lg:h-[25rem] lg:w-[25rem] border-[3px] border-dark dark:border-light'></div>
       </div>
     </MainContainer>
   )
