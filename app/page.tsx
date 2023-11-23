@@ -3,7 +3,12 @@ import MainContainer from './components/MainContainer'
 import AnimatedText from './components/animate/AnimatedText'
 import { CssIcon, HtmlIcon, MySqlIcon, NextjsIcon, PhpIcon, ReactIcon, TailwindIcon } from './components/svg'
 import TransitionEffect from './components/TransitionEffect'
+import type { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  title: 'Hi!',
+  description: `Hi, I'm Aldi Abdu. A passionate Web & Mobile Developer based in Karawang, West Java`,
+}
 export default function Home() {
   return (
     <>
