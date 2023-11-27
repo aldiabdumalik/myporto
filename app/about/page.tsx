@@ -16,7 +16,7 @@ export default function About() {
         <div className="grid w-full grid-cols-8 gap-8 md:gap-16 md:py-8 pr-2 sm:pr-0">
           <div className="col-span-8 md:col-span-3 order-2 md:order-1 flex flex-col items-start justify-start">
             <p className='font-medium'>
-              I'm a web & mobile developer from Karawang, West Java. I prefer to work as a front-end but it doesn't matter if I have to work back-end.
+              I'm a web & mobile developer from Karawang, West Java. I prefer to work as a front-end but it doesn't matter if I have to work as a back-end.
             </p>
             <p className='font-medium py-4'>
               I have about five years of experience in the world of programming, programming has become a hobby for me.

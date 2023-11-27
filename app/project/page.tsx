@@ -49,6 +49,21 @@ export default function Project() {
               <MySqlIcon height={24} width={24} className='fill-[#00758F] dark:fill-light' />
             </div>
           </ProjectBox>
+          <ProjectBox
+            image='/img/projects/kembarjek.png'
+            title='Online Transportation (Mobile App)'
+            desc={`An online transportation application to make it easier for people to travel or engage in day-to-day activities. The mode of transportation can help in solving the problem of congestion.`}
+          >
+            <div className='md:px-2'>
+              <ReactIcon height={24} width={24} className='fill-[#61DBFB] dark:fill-light' />
+            </div>
+            <div className='md:px-2'>
+              <PhpIcon height={26} width={26} className='fill-[#474A8A] dark:fill-light' />
+            </div>
+            <div className='md:px-2'>
+              <MySqlIcon height={24} width={24} className='fill-[#00758F] dark:fill-light' />
+            </div>
+          </ProjectBox>
         </div>
       </div>
     </MainContainer>
