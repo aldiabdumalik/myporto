@@ -13,7 +13,7 @@ export default function ContactButton({ style, url, children }: ContactProps) {
     <motion.a
       href={url ? url : '/'}
       target='_blank'
-      className={`${style} w-2/3 md:w-1/3 py-6 flex justify-center rounded-lg items-center relative text-light font-semibold`}
+      className={`${style} w-2/3 min-[450px]:w-1/2 sm:w-1/3 py-6 flex justify-center rounded-lg items-center relative text-light font-semibold`}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
     >
