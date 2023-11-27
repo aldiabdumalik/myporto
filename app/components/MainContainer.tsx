@@ -9,12 +9,12 @@ interface MainProps {
   style?: string;
   children: React.ReactNode
 }
-export default function MainContainer({style, children}: MainProps) {
+export default function MainContainer({ style, children }: MainProps) {
   const asPath = usePathname()
   return (
     <>
       <TransitionEffect />
-      <div className={`${style} h-screen px-2 lg:px-32 text-dark dark:text-light`}>{children}</div>
+      <div className={`${style} h-screen px-2 md:px-8 lg:px-32 text-dark dark:text-light`}>{children}</div>
     </>
   )
 }

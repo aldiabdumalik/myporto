@@ -6,7 +6,7 @@ interface AnimatedTextProps {
   style?: string;
 }
 const quote = {
-  initial: { opacity: 1},
+  initial: { opacity: 1 },
   animate: {
     opacity: 1,
     transition: {
@@ -16,7 +16,7 @@ const quote = {
   }
 };
 const singleWord = {
-  initial: { 
+  initial: {
     opacity: 0,
     y: 50
   },
@@ -24,11 +24,12 @@ const singleWord = {
     opacity: 1,
     y: 0,
     transition: {
+      delay: 1,
       duration: 1
     }
   }
 };
-export default function AnimatedText({text, style}: AnimatedTextProps) {
+export default function AnimatedText({ text, style }: AnimatedTextProps) {
   return (
     <div
       className='w-full mx-auto flex items-center justify-center py-2 overflow-hidden'
@@ -40,7 +41,7 @@ export default function AnimatedText({text, style}: AnimatedTextProps) {
         animate="animate"
       >
         {
-          text.split(" ").map((word: string, index: number) => 
+          text.split(" ").map((word: string, index: number) =>
             <motion.span key={index} className='inline-block' variants={singleWord}>
               {word}&nbsp;
             </motion.span>
