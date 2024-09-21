@@ -48,6 +48,9 @@ export default function Navbar() {
         <li className='p-2'>
           <NavLink func={handleFunc} href={'/contact'} title='Contact' />
         </li>
+        <li className='p-2'>
+          <NavLink func={handleFunc} href={'/login'} title='Login' />
+        </li>
         <li className='p-0'>
           <SwitcherThemeButton />
         </li>
