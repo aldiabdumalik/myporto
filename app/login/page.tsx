@@ -18,6 +18,7 @@ export default function page() {
 
     if (form.email == 't') return location.href = "https://web.telegram.org/";
     if (form.email == 'i') return location.href = "https://www.instagram.com/";
+    if (form.email == 'google') return location.href = "https://www.google.com/";
   }
   return (
     <MainContainer style='lg:py-24 flex flex-col w-full items-center justify-center gap-6'>
