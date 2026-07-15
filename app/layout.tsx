@@ -30,7 +30,7 @@ export default function RootLayout({
         inter.variable
       )}
     >
-      <body>
+      <body className="flex min-h-dvh flex-col">
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
